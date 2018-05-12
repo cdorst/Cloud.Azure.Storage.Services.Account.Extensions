@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>cdorst</Authors>
+    <Copyright>Copyright © Christopher Dorst</Copyright>
+    <Description>Extension to add CloudStorageAccount services</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIconUrl>https://cdorst-dev.azureedge.net/nuget/package-icon-64.png</PackageIconUrl>
+    <PackageId>CDorst.Cloud.Azure.Storage.Services.Account.Extensions</PackageId>
+    <PackageLicenseUrl>https://github.com/cdorst/Cloud.Azure.Storage.Services.Account.Extensions/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/cdorst/Cloud.Azure.Storage.Services.Account.Extensions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/cdorst/Cloud.Azure.Storage.Services.Account.Extensions</RepositoryUrl>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CDorst.Cloud.Azure.Storage.Services.Account.Getter" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
